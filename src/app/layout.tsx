@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={inter.className}>
-        <div className="flex h-screen pl-[320px] relative ">
+        <div className="w-full h-screen pl-[320px] relative ">
           <Sidebar />
           {children}
         </div>
